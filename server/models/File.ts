@@ -5,26 +5,26 @@ const Schema = mongoose.Schema;
 const fileSchema = new Schema(
   {
     filename: {
-      type: "string",
+      type: String,
       required: true,
     },
     secure_url: {
-      type: "string",
+      type: String,
       required: true,
     },
     format: {
-      type: "string",
+      type: String,
       required: true,
     },
     sizeInBytes: {
-      type: "string",
+      type: String,
       required: true,
     },
     sender: {
-      type: "string",
+      type: String,
     },
     receiver: {
-      type: "string",
+      type: String,
     },
   },
   {
